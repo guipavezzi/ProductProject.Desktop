@@ -1,0 +1,18 @@
+program CrudProject;
+
+uses
+  Vcl.Forms,
+  Lista_Produtos in 'Lista_Produtos.pas' {Form1},
+  Form_Cadastro_Produto in 'Form_Cadastro_Produto.pas' {Form2},
+  Form_Edicao_Produto in 'Form_Edicao_Produto.pas' {Form3};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.Run;
+end.

@@ -1,0 +1,28 @@
+unit ProdutoUnit;
+
+interface
+
+type
+  TProduto = class
+  private
+    FNome: string;
+    FPreco: string;
+    FDescricao: string;
+  public
+    constructor Create(const Nome: string; const Preco: string; const Descricao: string);
+    property Nome: string read FNome write FNome;
+    property Preco: string read FPreco write FPreco;
+    property Descricao: string read FDescricao write FDescricao;
+  end;
+
+implementation
+
+constructor TProduto.Create(const Nome: string; const Preco: string; const Descricao: string);
+begin
+  FNome := Nome;
+  FPreco := Preco;
+  FDescricao := Descricao;
+end;
+
+end.
+

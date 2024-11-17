@@ -1,0 +1,32 @@
+unit Form_Cadastro_Produto;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  Tform_cadastro = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    nome: TEdit;
+    preco: TEdit;
+    descricao: TEdit;
+    btn_form_cadastro: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  form_cadastro: Tform_cadastro;
+
+implementation
+
+{$R *.dfm}
+
+end.
