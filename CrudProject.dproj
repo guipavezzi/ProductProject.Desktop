@@ -127,15 +127,15 @@
             <Form>lista_produto</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Form_Cadastro_Produto.pas">
-            <Form>form_cadastro</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="Form_Edicao_Produto.pas">
             <Form>form_edicao</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="ProdutoUnit.pas"/>
+        <DCCReference Include="Form_Cadastro_Produto.pas">
+            <Form>form_cadastro</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
